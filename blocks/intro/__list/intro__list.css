@@ -1,0 +1,33 @@
+.intro__list {
+  list-style: none;
+  padding: 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.intro__list :nth-child(1)::after {
+  font-weight: normal;
+  content: ' 11';
+}
+
+.intro__list :nth-child(2)::after {
+  font-weight: normal;
+  content: ' 12';
+}
+
+.intro__list :nth-child(3)::after {
+  font-weight: normal;
+  content: ' 16';
+}
+
+.intro__list :nth-child(4)::after {
+  font-weight: normal;
+  content: ' 105';
+}
+
+.intro__list :nth-child(5)::after {
+  font-weight: normal;
+  content: ' 241';
+}

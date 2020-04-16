@@ -4,7 +4,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  max-width: 92.5%;
+  max-width: 1184px;
   margin: auto;
   margin-top: 92px;
   grid-gap: 16px;

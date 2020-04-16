@@ -7,22 +7,24 @@
   margin: auto;
   text-align: center; 
   position: absolute;
-  max-width: 360px;
+  margin-left: 34.5%;
+  margin-right: 34.5%;
   top: 429px;
-  left: 412px;
 }
 
 @media screen and (max-width: 1279px) {
   .cover__subtitle {
     top: 379px;
-    left: 332px;
+    margin-left: 33.5%;
+    margin-right: 33.5%;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .cover__subtitle {
     top: 299px;
-    left: 204px;
+    margin-left: 28%;
+    margin-right: 28%;
   }
 }
 
@@ -31,7 +33,7 @@
     font-size: 14px;
     line-height: 16px;
     top: 119px;
-    left: 16px;
-    max-width: 288px;
+    margin-left: 9%;
+    margin-right: 9%;
   }
 }

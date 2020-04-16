@@ -8,21 +8,23 @@
   text-align: center;
   margin: 0;
   top: 245px;
-  left: 312px;
-  max-width: 560px;
+  margin-right: 25%;
+  margin-left: 25%;
 }
 
 @media screen and (max-width: 1279px) {
   .cover__title {
     top: 195px;
-    left: 232px;
+    margin-right: 20%;
+    margin-left: 20%;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .cover__title {
-    top: 115px; 
-    left: 104px;
+    top: 115px;
+    margin-right: 13%;
+    margin-left: 13%; 
   }
 }
 
@@ -31,9 +33,7 @@
     font-size: 32px;
     line-height: 35px;
     top: 33px;
-    left: 0;
-    padding-right: 13%;
-    padding-left: 13%;
-
+    margin-left: 10%;
+    margin-right: 10%;
   }
 }

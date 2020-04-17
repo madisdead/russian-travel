@@ -2,6 +2,9 @@
   max-width: 1184px;
   height: 740px;
   z-index: 0;
+  background-image: url('../../../images/cover-trains.jpg');
+  background-size: cover;
+  opacity: .8;
 }
 
 @media screen and (max-width: 1279px) {

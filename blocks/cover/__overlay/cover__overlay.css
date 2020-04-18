@@ -2,11 +2,17 @@
   max-width: 1184px;
   height: 740px;
   margin: auto;
-  background: #2A2C2F;
-  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
 }
 
-.cover__overlay :hover {
+.cover__overlay:visited {
+  color: white;
+}
+
+.cover__overlay:hover .cover__background {
   opacity: .3;
   transition: opacity 1s ease-in-out;
 }

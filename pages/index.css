@@ -8,12 +8,4 @@
 @import url('../blocks/place/place.css');
 @import url('../blocks/cover/cover.css');
 @import url('../blocks/footer/footer.css');
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 100;
-  font-display: swap;
-  src: url('./fonts/Inter-Thin.woff2?v=3.13') format("woff2"),
-       url('./fonts/Inter-Thin.woff?v=3.13') format("woff");
-}
-
+@import url('../fonts/inter.css');

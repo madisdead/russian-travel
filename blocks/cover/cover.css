@@ -5,6 +5,7 @@
 
 
 .cover {
+  overflow: hidden;
   max-width: 1184px;
   position: relative;
   margin: auto;
